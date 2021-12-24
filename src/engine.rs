@@ -53,7 +53,7 @@ impl Engine {
             _ => panic!("unsupported platform"),
         };
         format!(
-            "https://github.com/flutter-rs/engine-builds/releases/download/f-{0}/{1}.zip",
+            "https://github.com/roscale/engine-builds/releases/download/f-{0}/{1}.zip",
             &self.version, platform
         )
     }
